@@ -1,8 +1,18 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Image from 'next/image';
+import pizza from '../pages/pizza.jpg';
+
+
 
 export default function Home() {
-  return (<p>The new recipes</p>)
-   
-}
+  return (
+  <>
+  <p>The new recipes</p>
+         <Image   
+         src={pizza}
+         alt=""
+         layout="responsive"
+         width={2400}
+         height={1599}
+         />
+         </>
+  )}
