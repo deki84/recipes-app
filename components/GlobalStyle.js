@@ -1,13 +1,13 @@
-import {createGlobalStlye} from "styled-components";
+import {createGlobalStyle} from "styled-components";
 
-const GlobalStyle = createGlobalStlye`
-*, *::after,*::before{
+const GlobalStyle = createGlobalStyle`
+*, *::after,*::before {
     box-sizing: border-box;
 }
 
 body{
 
-    background-color: hotpink;
+    background-color: grey;
     
 }`;
 
