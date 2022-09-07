@@ -1,8 +1,27 @@
+
+import Image from 'next/image';
+import pizza from '../pages/pizza.jpg';
+=======
 import Image from "next/image"
 
 
 
+
 export default function Home() {
+
+  return (
+  <>
+  <p>The new recipes</p>
+         <Image   
+         src={pizza}
+         alt=""
+         layout="responsive"
+         width={2400}
+         height={1599}
+         />
+         </>
+  )}
+=======
   return (<p>The new recipes</p>)
    <Image
    alt=""
@@ -10,3 +29,4 @@ export default function Home() {
    layout="responsive"
    
 }
+
